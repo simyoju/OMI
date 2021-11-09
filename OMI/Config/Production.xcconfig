@@ -1,0 +1,10 @@
+//
+//  Production.xcconfig
+//  OMI
+//
+//  Created by simyo on 2021/11/09.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+OPEN_WEATHER_API_APP_KEY = "97240930f69215cf4fa8a94c713651d7"

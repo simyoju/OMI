@@ -48,7 +48,7 @@ class SettingViewController: UIViewController {
         let nibName = UINib(nibName: "BookmarkCellTableViewCell", bundle: nil)
         tableView.register(nibName, forCellReuseIdentifier: "bookmarkCell")
         
-        apiKey = Bundle.main.infoDictionary["OPEN_WEATHER_API_APP_KEY"]
+        apiKey = Bundle.main.infoDictionary!["OPEN_WEATHER_API_APP_KEY"] as! String
         
         tempUnitSegmentControl.selectedSegmentIndex = UserDefaults.standard.integer(forKey: "tempUnit")
         

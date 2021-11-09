@@ -137,7 +137,7 @@ class ViewController: UIViewController {
     private func getWeatherAPI(_ unit:String) {
         
         
-        let strURL = "https://api.openweathermap.org/data/2.5/onecall?lat=\(lat)&lon=\(lon)&appid=\(Bundle.main.infoDictionary["OPEN_WEATHER_API_APP_KEY"])&units=\(unit)"
+        let strURL = "https://api.openweathermap.org/data/2.5/onecall?lat=\(lat)&lon=\(lon)&appid=\(Bundle.main.infoDictionary!["OPEN_WEATHER_API_APP_KEY"]!)&units=\(unit)"
         
         let alamo = AF.request(strURL, method: .get, parameters: nil)
 //            .validate(statusCode: 200 ..< 300)

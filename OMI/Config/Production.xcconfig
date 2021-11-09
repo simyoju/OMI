@@ -7,4 +7,7 @@
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
-OPEN_WEATHER_API_APP_KEY = "97240930f69215cf4fa8a94c713651d7"
+
+#include "Pods/Target Support Files/Pods-OMI/Pods-OMI.release.xcconfig"
+
+OPEN_WEATHER_API_APP_KEY = 97240930f69215cf4fa8a94c713651d7

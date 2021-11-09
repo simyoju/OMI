@@ -110,7 +110,7 @@ class SearchMapViewController: UIViewController {
     }
     
     func getWeatherAPI(_ lat:String,_ lon:String) {
-        let strURL = "https://api.openweathermap.org/data/2.5/onecall?lat=\(self.lat)&lon=\(self.lon)&appid=\(Bundle.main.infoDictionary["OPEN_WEATHER_API_APP_KEY"])!)&units=\(unit!)"
+        let strURL = "https://api.openweathermap.org/data/2.5/onecall?lat=\(self.lat)&lon=\(self.lon)&appid=\(Bundle.main.infoDictionary!["OPEN_WEATHER_API_APP_KEY"]))&units=\(unit!)"
         print("check \(self.lat), \(self.lon)")
         
         let alamo = AF.request(strURL, method: .get, parameters: nil)

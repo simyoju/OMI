@@ -59,6 +59,7 @@
 		DFF4524D272686AC00E9F2DC /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4524C272686AC00E9F2DC /* Bookmark.swift */; };
 		DFF452502726879600E9F2DC /* BookmarkCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4524E2726879600E9F2DC /* BookmarkCellTableViewCell.swift */; };
 		DFF452512726879600E9F2DC /* BookmarkCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF4524F2726879600E9F2DC /* BookmarkCellTableViewCell.xib */; };
+		DFFCD5D1273ABDBC002C4B39 /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFCD5D0273ABDBC002C4B39 /* WeatherInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +130,7 @@
 		DFF4524F2726879600E9F2DC /* BookmarkCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookmarkCellTableViewCell.xib; sourceTree = "<group>"; };
 		DFFCD5CE273AB7A0002C4B39 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		DFFCD5CF273AB7B1002C4B39 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		DFFCD5D0273ABDBC002C4B39 /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +279,7 @@
 			children = (
 				DFF4524C272686AC00E9F2DC /* Bookmark.swift */,
 				DFD2E1F3272B938D00034C07 /* ClothesList.swift */,
+				DFFCD5D0273ABDBC002C4B39 /* WeatherInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 				DFD2E1F1272B8AED00034C07 /* ClothesInDetailViewCell.swift in Sources */,
 				DFF452332726467900E9F2DC /* AppDelegate.swift in Sources */,
 				DFD2E1F4272B938D00034C07 /* ClothesList.swift in Sources */,
+				DFFCD5D1273ABDBC002C4B39 /* WeatherInfo.swift in Sources */,
 				DFF452352726467900E9F2DC /* SceneDelegate.swift in Sources */,
 				DFF4524D272686AC00E9F2DC /* Bookmark.swift in Sources */,
 				DFF452502726879600E9F2DC /* BookmarkCellTableViewCell.swift in Sources */,
